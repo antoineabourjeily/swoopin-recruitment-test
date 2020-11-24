@@ -6,6 +6,9 @@
   "author": "Swoopin",
   "license": "ISC",
   "scripts": {
+    "setup": "npm i && npm run setup:api && npm run setup:backoffice",
+    "setup:api": "cd api && npm i",
+    "setup:backoffice": "cd backoffice && npm i",
     "dev:api": "cd api && npm run dev",
     "dev:backoffice": "cd backoffice && npm run dev"
   },

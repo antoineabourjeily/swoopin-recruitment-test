@@ -1,0 +1,53 @@
+@import "~style/variables";
+
+// 
+// 
+
+.sidebar-vehicle {
+  overflow: hidden;
+  position: relative;
+  padding: 0.2rem;
+
+  &__group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__vehicle {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: #fdd4c3;
+
+    &-online{
+      background-color: #bed9d4;
+    }
+    &-name {
+      text-transform: uppercase;
+      font-weight: 500;
+      margin-bottom: -0.25em;
+      font-size: 0.9rem;
+    }
+
+    &-description {
+      font-weight: 500;
+      font-size: 0.9rem;
+      line-height: 1.1em;
+      margin-top: 0.2em;
+      margin-bottom: 0.3em;
+    }
+
+    &-speed-temperature {
+      font-size: 0.7rem;
+      margin-top: 0.2em;
+      line-height: 1.1em;
+    }
+  }
+}

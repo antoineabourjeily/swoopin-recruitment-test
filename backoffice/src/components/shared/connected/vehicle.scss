@@ -67,7 +67,7 @@
     }
   }
 
-  &__location {
+  &__location, &__speed, &__temperature {
     &--hidden {
       display: none;
     }
